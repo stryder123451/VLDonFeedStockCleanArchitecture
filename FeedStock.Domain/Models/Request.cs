@@ -30,5 +30,7 @@ namespace FeedStock.Domain.Models
         public float OldCartonPrice { get; set; }
         public float OldPlenkaPrice { get; set; }
         public string Mark { get; set; }
+
+        
     }
 }
