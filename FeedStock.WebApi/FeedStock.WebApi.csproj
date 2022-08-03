@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FeedStock.Application\FeedStock.Application.csproj" />
+    <ProjectReference Include="..\FeedStock.Persistence\FeedStock.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
